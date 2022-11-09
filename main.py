@@ -9,7 +9,7 @@ from pymilvus import Collection
 # 連接 Milvus 服務器
 connections.connect(alias="default", host='localhost', port='19530')
 
-ef update(file_path:str):
+def update(file_path:str):
     # 读取目录中的所有数据
     pass
 
